@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(245, 245, 245)
+}
+.row{
+    width: 100%;
+}
+.row::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+/*............Header stard here...........*/
+header{
+    background-color: white;
+    text-align: center;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+}
+.nav1 a{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    padding: 15px;
+    transition: 0.5s;
+}
+.nav1 a:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+/*.............Header End here.............*/
+
+/*............Section Start here..........*/
+.header1{
+    padding: 10px;
+}
+.header1 h3{
+    padding: 10px;
+}
+.header1 h1{
+    padding: 10px;
+    font-size: 40px;
+}
+.header1 p{
+    padding: 10px;
+    color: gray;
+}
+.bton{
+    padding: 20px;
+}
+.btn{
+    padding: 15px;
+    background-image: linear-gradient(to right,#8490FF, #62BDFC);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.btn:hover{
+    box-shadow: 4px 1px 12px 3px black;
+}
+.img img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 2px rgb(255, 0, 157) ;
+    
+}
+.img{
+    text-align: center;
+    padding: 20px;
+}
+/*............Section End here..........*/
+/*............services start here..........*/
+.rad{
+    background-color: rgb(221, 221, 221);
+}
+.icon{
+    padding: 80px;
+    text-align: center;
+    
+}
+.icon i{
+    padding: 15px;
+    font-size: 35px;
+}
+.icon h3{
+    padding: 20px;
+}
+.icon p{
+    padding: 0 10px 0 10px;
+}
+.icon i:hover{
+    color: blue;
+    cursor: pointer;
+}
+.icon h3:hover{
+    color: blue;
+    cursor: pointer;
+}
+.head2{
+    text-align: center;
+    padding: 50px;
+    
+}
+.number{
+    text-align: center;
+    
+    
+}
+.num{
+    background-color: cadetblue;
+    padding: 50px ;
+    color: white;
+    
+}
+/*............services end here..........*/
+
+/*............buy now start here..........*/
+
+.head6{
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px;
+}
+.card{
+    background-color: rgb(255, 204, 183);
+    border-radius: 10px;
+}
+.card{
+    padding: 20px;
+    text-align: center;
+    transition: 0.4s;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+.card .hed h1{
+    padding: 20px;
+    font-size: 50px;
+    background-color: rgb(235, 211, 161);
+    width: 30%;
+   border-radius: 50%;
+    
+    
+}
+.card .hed{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card p{
+    padding: 25px;
+    color: rgb(126, 126, 126);
+    
+}
+.card h1{
+    padding: 25px;
+}
+.buttn .but{
+    padding: 10px;
+    width: 90%;
+    background-color: #000000;
+    font-size: 20px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.buttn .but:hover{
+    background-color: gray;
+}
+/*............buy now end here..........*/
+
+/*............protfolio start here..........*/
+
+.images a img{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    transition: 0.4s;
+}
+.images a img:hover{
+    transform: scale(1.1);
+}
+.images{
+    text-align: center;
+    padding-top: 100px;
+}
+.head9{
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+.head9 h1{
+    font-size: 40px;
+}
+footer{
+    background-color: #030014;
+    color: white;
+}
+/*............protfolio end here..........*/
+
+
+/*............contact start here..........*/
+
+.footer{
+    padding: 10px;
+    padding-top: 100px;
+    
+    
+}
+.contact{
+    padding-bottom: 40px;
+}
+.contact p{
+    padding-top: 20px;
+    color: gray;
+}
+.contact p a{
+    text-decoration: none;
+    color: blue;
+}
+.contact1 p{
+    padding-top: 20px;
+    color: gray;
+}
+.searc{
+    padding-top: 20px;
+}
+.searc input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.btn1 .btn2{
+    background-image: linear-gradient(to right,#8490FF, #62BDFC);
+    width: 30%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn1{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.icon1{
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.icon1 a i{
+    color: white;
+    font-size: 20px;
+    width: 8%;
+}
+.contact3 p{
+    padding-top: 10px;
+    color: gray;
+
+}
+
+/*............contact end here..........*/
